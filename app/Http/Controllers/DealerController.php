@@ -45,7 +45,7 @@ class DealerController extends Controller
         $zac=Dealer::where('estado','Zacatecas')->get();
         $otr=Dealer::where('estado','Otros')->get();
         $mor=Dealer::where('estado','Morelos')->get();
-
+        $a=0;
         
         return view('distribuidoras',compact('aguascalientes','bajaC','bajaS','campeche','cdmx','chiapas','chihuahua','coahuila','colima','durango','edomex'
     ,'gto','guerrero','hidalgo','jalisco','mich','nay','nl','oax','puebla','qro','qroo'
